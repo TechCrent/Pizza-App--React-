@@ -6,23 +6,30 @@ const Pizza = (props) => {
 };
 
 const App = () => {
-  return React.createElement("div", {}, [
-    React.createElement("h1", {}, "Pixel Perfect Pizzas"),
-    React.createElement(Pizza, {
-      name: "The Pepperoni Pizza",
-      description: "Mozzarella Cheese, Pepperoni",
-    }),
-    React.createElement(Pizza, {
-      name: "The Hawaiian Pizza",
-      description: "Sliced Ham, Pineapple, Mozzarella Cheese",
-    }),
-    React.createElement(Pizza, {
-      name: "The Big Meat Pizza",
-      description: "Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",
-    }),
-  ]);
+    return React.createElement( "div", {}, [
+        React.createElement("h1", {}, "Padre Gino's"),
+        React.createElement(Pizza, {
+            name:"The Pepperoni Pizza",
+            description: "A pepperoni Pizza"
+        }),
+        React.createElement(Pizza, {
+            name:"Americano Pizza",
+            description: "Doesn't exist"
+        }),
+        React.createElement(Pizza, {
+            name: "Ghanaian Pizza",
+            description: "Because I want to"
+        }),
+        React.createElement(Pizza, {
+            name: "Some Random Pizza",
+            description: "Probably Poisonous"
+        }),
+        React.createElement(Pizza, {
+            name: "The Hawaiian Pizza",
+            description: "Why?"
+        })
+    ]);
 };
-
 
 const container = document.getElementById("root");
 const root = ReactDOM.createRoot(container);
