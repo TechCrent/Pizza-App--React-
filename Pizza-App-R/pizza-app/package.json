@@ -1,28 +1,31 @@
 {
-  "name": "pizza-app",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "citr-v9-projects",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
+    "dev": "vite",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
-  },
+  "keywords": [],
+  "type": "module",
+  "author": "Brian Holt",
+  "license": "Apache-2.0",
+  "description": "The Complete Intro to React v9, as taught by Brian Holt for Frontend Masters",
   "devDependencies": {
-    "@eslint/js": "^9.39.1",
-    "@types/react": "^19.2.5",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^5.1.1",
-    "babel-plugin-react-compiler": "^1.0.0",
-    "eslint": "^9.39.1",
-    "eslint-plugin-react-hooks": "^7.0.1",
-    "eslint-plugin-react-refresh": "^0.4.24",
-    "globals": "^16.5.0",
-    "vite": "^7.2.4"
+    "@vitejs/plugin-react": "4.3.1",
+    "eslint": "9.9.1",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-react": "7.37.1",
+    "eslint-plugin-react": "7.37.1",
+    "globals": "15.9.0",
+    "prettier": "3.3.3",
+    "vite": "5.4.2"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   }
 }
